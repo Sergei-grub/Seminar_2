@@ -65,13 +65,13 @@ Markdown | Less | Pretty
 
 
 ## Задача с собачкой из первой лекции.
-
+#
 count = 0
 distance = 10000
 first_friend_speed = 1
 second_friend_speed = 2
 dog_speed = 5
-friend = 1
+friend = 2
 
 
 while distance > 10:
