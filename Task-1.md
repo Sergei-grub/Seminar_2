@@ -88,3 +88,10 @@ while distance > 10:
         count = count + 1
         print('счет', count, '=', 't=',int(time), 'd=',int(distance))
 print('Собака пробежит', count, 'раз.')
+
+### **Загрузка на GitHub:**
+
+На GitHub создан публичный репозиторий, адрес по HTTPS:
+https://github.com/Sergei-grub/git-github.com-Sergei-grub-Git_Lessons_-w-.git
+
+Данные загружены 
