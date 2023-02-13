@@ -58,10 +58,15 @@ _Так же ваши репозитории можно хранить и в и�
 * git commit --amend -m "Updated message for the previous commit"
 
 ## Работа с таблицами
-Markdown | Less | Pretty
+N | Команда | ОписаниеPretty
 --- | --- | ---
-**Still** | `renders` | **nicely**
-1 | 2 | 3
+1 | git init  | инициализация локального репозитория
+2 | git status | получить информацию от git о его текущем состоянии
+3 | git add | добавить файл или файлы к следующему коммиту
+4 | git branch | посмотреть список веток в репозитории
+
+
+## Задача с собачкой из первой лекции
 
 
 ## Задача с собачкой из первой лекции.
@@ -75,19 +80,24 @@ friend = 2
 
 
 while distance > 10:
+    
     if friend == 1:
         time = distance / (first_friend_speed + dog_speed)
         friend = 2
         distance = distance - (first_friend_speed + second_friend_speed) * time
         count = count + 1
+        
         print('счет', count, '=', 't=',int(time), 'd=',int(distance))
+    
     if friend == 2:
         time = distance / (second_friend_speed + dog_speed)
         friend = 1
         distance = distance - (first_friend_speed + second_friend_speed) * time
         count = count + 1
+        
         print('счет', count, '=', 't=',int(time), 'd=',int(distance))
-print('Собака пробежит', count, 'раз.')
+print ('Собака пробежит', count, 'раз.')
+
 
 ### **Загрузка на GitHub:**
 
