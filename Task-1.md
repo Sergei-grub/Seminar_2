@@ -62,3 +62,5 @@ Markdown | Less | Pretty
 --- | --- | ---
 **Still** | `renders` | **nicely**
 1 | 2 | 3
+
+## Задача с собачкой из первой лекции
